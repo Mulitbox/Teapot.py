@@ -25,9 +25,9 @@ def __init__():
     input_mysql_user = "root"
     input_mysql_password = ""
 
-    input_bot_token = input("Discord bot token: ")
-    input_bot_prefix = input("Command Prefix: ")
-    input_bot_status = input("Bot status: (Playing xxx) ")
+    input_bot_token = input("Discord bot token:MTQzOTA3ODU2MjkyMDUyOTk3MA.G8Fszq.dO_BmaWFx9KBsGeCqM0CK0jRl8XwVYd32qL7co")
+    input_bot_prefix = input("Command Prefix:? ")
+    input_bot_status = input("Bot status: Killed myself ")
     input_storage_type = input("Use MySQL? [Y/n] ")
     if input_storage_type.lower() == "y" or input_storage_type.lower() == "yes":
         input_storage_type = "mysql"
