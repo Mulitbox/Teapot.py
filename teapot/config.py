@@ -4,7 +4,7 @@ import teapot
 
 
 def bot_owner():
-    return eval(os.getenv('BOT_owner', "216127021028212737"))
+    return eval(os.getenv('BOT_owner', "1240105261813862450"))
 
 
 def bot_token():
